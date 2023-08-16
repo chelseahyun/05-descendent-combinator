@@ -1,0 +1,20 @@
+/* Practice with descendent combinator (ex: .ancestor .child) */
+
+/* Let's try different methods of descendent combination */
+
+/* 1. Combine type selectors only */
+/* Only the "p" elements that are "descendants of "div" element are styled */
+
+div p {
+    background-color: #ffff00;
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* 2. Combine class selectors only */
+
+
+
+/* 3. Combine type AND class selectors */
