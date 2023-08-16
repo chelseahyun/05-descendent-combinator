@@ -24,10 +24,17 @@ div p {
 
 /* 3. Combine type AND class selectors */
 /* Any combination is acceptable but let's style the elements who have "p" type under "container" class */
-.container p {
-        background-color: #ffff00;
-        color: #ff0000;
-        font-size: 20px;
-        text-align: center;
-}
+/* .container p {
+    background-color: #ffff00;
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+} */
 
+/* Alternatively, we can also style elements with "text" classes under "div" type */
+div .text {
+    background-color: #ffff00;
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+}
