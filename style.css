@@ -15,11 +15,19 @@ div p {
 
 /* 2. Combine class selectors only */
 /* elements with "text" classes under "container" ancestor classes will only get styled */
-.container .text {
+/* .container .text {
     background-color: #ffff00;
     color: #ff0000;
     font-size: 20px;
     text-align: center;
-}
+} */
 
 /* 3. Combine type AND class selectors */
+/* Any combination is acceptable but let's style the elements who have "p" type under "container" class */
+.container p {
+        background-color: #ffff00;
+        color: #ff0000;
+        font-size: 20px;
+        text-align: center;
+}
+
